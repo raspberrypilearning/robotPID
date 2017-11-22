@@ -1,4 +1,4 @@
-##Proportional
+##Proportional Control
 
 Proportional control is adjusting the motor speed by adding the value of the error – the value of the error (the difference in encoder ticks between the target and the actual speed) will need to be converted to the motor speed (a value between 0 and 1) by multiplying a constant (KP) to get a ‘proportional’ change:
 
@@ -47,7 +47,7 @@ Modify the program you created earlier to read encoder values:
 ~~~
 9. Run your program – you will see the motor’s speed being adjusted each time the encoders are sampled, based on the error.
 
-View the complete proportional.py code listing at (https://github.com/martinohanlon/RobotPID).
+View the complete proportional.py code listing at <https://github.com/martinohanlon/RobotPID>.
 
 Proportional control should be enough to stabilise your motors’ speed and keep them turning at about the correct speed, but when there is a large error or you want the speed to adjust quickly, you will get a large overshoot and your robot will react erratically, swinging left to right – this is where derivative control helps.
 
