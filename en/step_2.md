@@ -11,7 +11,7 @@ Most encoders will have three or four pins (power, ground, and one or two signal
 title: Two pin PID controllers
 ---
 Your robot maybe fitted with ‘quadrature’ encoders; these encoders use two pins, significantly increase the resolution, and allow the direction the motor is spinning to be determined.
-This tutorial assumes you are using simple one-pin pulse encoders, but there is a code example at <https://github.com/martinohanlon/RobotPID> which should allow you to modify it. There’s also an excellent write-up at robotoid.com/appnotes/circuits-quad-encoding.html which explains how they work and how to interpret the signals from them.
+This tutorial assumes you are using simple one-pin pulse encoders, but there is a code example at <https://github.com/martinohanlon/RobotPID> which should allow you to modify it. There’s also an excellent write-up at <http://robotoid.com/appnotes/circuits-quad-encoding.html> which explains how they work and how to interpret the signals from them.
 --- /collapse ---
 
 ![Robot Setup](images/Pi Motors Encoders_bb.png)
