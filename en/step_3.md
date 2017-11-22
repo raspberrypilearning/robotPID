@@ -12,7 +12,6 @@ from time import sleep
 `SAMPLETIME = 1`
 
 4. Create an Encoder class to monitor your encoders; this will increment a value each time the pin turns on and off.
-
 ~~~
 class Encoder(object):
    def __init__(self, pin):
