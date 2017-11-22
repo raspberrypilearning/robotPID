@@ -16,3 +16,6 @@ steps:
   - title: First code
   - title: PID Controller
   - title: Proportional
+  - title: Derivative
+  - title: Integral
+  - title: Tune the system
