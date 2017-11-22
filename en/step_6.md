@@ -34,4 +34,4 @@ Modify the program to implement derivative control…
 
 Proportional and derivative (PD) control should provide a good level of performance but may not provide consistency of speed over time – integral control can help to bring this stability.
 
-![Derivative Running](derivative_running.png)
+![Derivative Running](derivative_running.PNG)

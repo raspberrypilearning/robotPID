@@ -19,3 +19,4 @@ steps:
   - title: Derivative
   - title: Integral
   - title: Tune the system
+  - title: Other uses for PID
