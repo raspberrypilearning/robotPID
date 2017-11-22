@@ -31,5 +31,7 @@ Modify the program to implement derivative control…
 ~~~
 	
 5. Run your program. Again you will see the motor speed change in relation to error and over time, it should stabilise to a more consistent speed.
+
 Proportional and derivative (PD) control should provide a good level of performance but may not provide consistency of speed over time – integral control can help to bring this stability.
 
+![Derivative Running](derivative_running.png)

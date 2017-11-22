@@ -13,3 +13,5 @@ Encoders are typically used to measure motor speed; these devices provide an out
 A PID (proportional-integral-derivative) controller is then used to continuously monitor and adjust motor speed to keep them in sync.
 
 This tutorial steps through adding encoders to a Raspberry Pi-powered robot, using Python to create a PID controller, tuning it to work with your robot, and using the GPIO Zero (gpiozero.readthedocs.io) library to interact with the hardware.
+
+![Going Straight] (images/PID Robot.png)

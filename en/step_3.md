@@ -59,5 +59,7 @@ The SAMPLETIME value should be changed to reflect your hardware; you need to fin
 
 Make a note of approximately how many encoder ticks per sample your robot makes.
 
+![Encoder Running](images/encoder_running.PNG)
+
 
 
