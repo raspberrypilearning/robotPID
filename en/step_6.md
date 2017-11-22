@@ -19,8 +19,8 @@ Modify the program to implement derivative control…
 
 3. Modify the code which calculate the speeds for motor 1 and 2 to taken into account the previous error:
 ~~~ python
-    m1_speed += (e1_error * KP) + (e1_prev_error * KD)
-    m2_speed += (e2_error * KP) + (e1_prev_error * KD)
+    m1_speed += (e1_error * KP) + (e1_prev_error * KD)
+    m2_speed += (e2_error * KP) + (e1_prev_error * KD)
 ~~~
 
 4. At the end of the loop, set the previous error variables to be that of the current error:
