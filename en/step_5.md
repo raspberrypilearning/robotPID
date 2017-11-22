@@ -46,3 +46,8 @@ Modify the program you created earlier to read encoder values:
     sleep(SAMPLETIME)
 ~~~
 9. Run your program – you will see the motor’s speed being adjusted each time the encoders are sampled, based on the error.
+
+View the complete proportional.py code listing at github.com/martinohanlon/RobotPID.
+
+Proportional control should be enough to stabilise your motors’ speed and keep them turning at about the correct speed, but when there is a large error or you want the speed to adjust quickly, you will get a large overshoot and your robot will react erratically, swinging left to right – this is where derivative control helps.
+
