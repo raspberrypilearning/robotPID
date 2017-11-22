@@ -12,21 +12,21 @@ from time import sleep
 `SAMPLETIME = 1`
 
 4. Create an Encoder class to monitor your encoders; this will increment a value each time the pin turns on and off.
-~~~ python
-class Encoder(object):
-	def __init__(self, pin):
-		self._value = 0
-		encoder = DigitalInputDevice(pin)
-		encoder.when_activated = self._increment
-		encoder.when_deactivated = self._increment
-	def reset(self):
-		self._value = 0
-	def _increment(self):
-		self._value += 1
-@property
-   def value(self):
-        return self._value
-~~~
+	~~~ python
+	class Encoder(object):
+		def __init__(self, pin):
+			self._value = 0
+			encoder = DigitalInputDevice(pin)
+			encoder.when_activated = self._increment
+			encoder.when_deactivated = self._increment
+		def reset(self):
+			self._value = 0
+		def _increment(self):
+			self._value += 1
+	@property
+	   def value(self):
+			return self._value
+	~~~
 
 5. Use the gpiozero Robot class to connect to your motor hardware; each motor will connect to two GPIO pins (one forward, one back), specified as ((left_forward, left_backward), (right_forward, right_backward)) – our robot uses the pins ((10,9), (8,7)):
 `r = Robot((10,9), (8,7))`
