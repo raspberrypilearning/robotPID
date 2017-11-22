@@ -14,3 +14,5 @@ steps:
   - title: Introduction
   - title: What you will need
   - title: First code
+  - title: PID Controller
+  - title: Proportional

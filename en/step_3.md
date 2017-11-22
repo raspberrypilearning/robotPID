@@ -53,7 +53,11 @@ r.value = (m1_speed, m2_speed)
 
 9. Run the program.
 
+View the complete encoder.py code listing at github.com/martinohanlon/RobotPID.
 
+The SAMPLETIME value should be changed to reflect your hardware; you need to find a balance between reading it frequently enough to get good results and slow enough to capture sufficient encoder ticks – try values between 0.1 and 1.0 seconds and aim to capture more than 20 ticks per sample. 
+
+Make a note of approximately how many encoder ticks per sample your robot makes.
 
 
 
