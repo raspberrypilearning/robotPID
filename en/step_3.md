@@ -3,7 +3,7 @@
 1. Open up a Python 3 editor (e.g. Thonny) and create a new program.
 
 2. Import the required Python modules:
-~~~
+~~~ python
 from gpiozero import Robot, DigitalInputDevice
 from time import sleep
 ~~~
@@ -12,7 +12,7 @@ from time import sleep
 `SAMPLETIME = 1`
 
 4. Create an Encoder class to monitor your encoders; this will increment a value each time the pin turns on and off.
-~~~
+~~~ python
 class Encoder(object):
    def __init__(self, pin):
         self._value = 0
@@ -32,20 +32,20 @@ class Encoder(object):
 `r = Robot((10,9), (8,7))`
 
 6. Create two Encoder objects passing the GPIO pin the signal connects too; we’ve used GPIO pins 17 and 18: 
-~~~~
+~~~~ python
 e1 = Encoder(17)
 e2 = Encoder(18)
 ~~~
 
 7. Start the robot by making the value of both motors 1.0 (forward at full speed):
-~~~
+~~~ python
 m1_speed = 1.0
 m2_speed = 1.0
 r.value = (m1_speed, m2_speed)
 ~~~
 
 8. Start an infinite loop and print the encoder values:
-~~~
+~~~ python
 while True:
    print("e1 {} e2 {}".format(e1.value, e2.value)
    sleep(SAMPLETIME)
