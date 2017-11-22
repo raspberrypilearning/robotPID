@@ -6,8 +6,8 @@ duration: 3 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: false
-curriculum: ""
-interests: "
+curriculum: 
+interests: ""
 technologies: ""
 site_areas:
 steps:
