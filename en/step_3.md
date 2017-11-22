@@ -32,7 +32,7 @@ from time import sleep
 `r = Robot((10,9), (8,7))`
 
 6. Create two Encoder objects passing the GPIO pin the signal connects too; we’ve used GPIO pins 17 and 18: 
-~~~~ python
+~~~ python
 e1 = Encoder(17)
 e2 = Encoder(18)
 ~~~
@@ -46,9 +46,9 @@ r.value = (m1_speed, m2_speed)
 
 8. Start an infinite loop and print the encoder values:
 ~~~ python
-while True:
-   print("e1 {} e2 {}".format(e1.value, e2.value)
-   sleep(SAMPLETIME)
+	while True:
+		print("e1 {} e2 {}".format(e1.value, e2.value)
+		sleep(SAMPLETIME)
 ~~~
 
 9. Run the program.
