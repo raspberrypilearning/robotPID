@@ -1,4 +1,4 @@
-## PID Controller
+## PID controller
 
 A PID controller continuously calculates an error and applies a corrective action to resolve the error; in this case, the error is the motor spinning at the wrong speed and the corrective action is changing the power to the motor. It is this continuous testing of the motor’s speed and adjusting it to the correct speed which will make your robot’s motors spin at the correct speed and go straight. 
 

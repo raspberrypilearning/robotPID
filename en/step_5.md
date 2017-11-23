@@ -1,4 +1,4 @@
-## Proportional Control
+## Proportional control
 
 Proportional control is adjusting the motor speed by adding the value of the error – the value of the error (the difference in encoder ticks between the target and the actual speed) will need to be converted to the motor speed (a value between 0 and 1) by multiplying a constant (KP) to get a ‘proportional’ change:
 

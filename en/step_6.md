@@ -1,4 +1,4 @@
-## Derivative Control
+## Derivative control
 
 Derivative control looks at how quickly or slowly the error is changing, creating a larger error if it’s changing quickly and a smaller one if slowly. This will help to smooth out the rate of change and prevent erratic changes in speed.
 
