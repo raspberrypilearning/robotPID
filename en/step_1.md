@@ -18,4 +18,4 @@ This tutorial steps through adding encoders to a Raspberry Pi-powered robot, usi
 
 ## Author
 **Martin O'Hanlon**
-Martin is the co-author of Adventures in Minecraft, a Raspberry Pi trainer, and blogger at stuffaboutco.de
+Martin is the co-author of Adventures in Minecraft, a Raspberry Pi trainer, and blogger at <http://stuffaboutco.de>
