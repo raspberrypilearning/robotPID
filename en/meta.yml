@@ -15,8 +15,8 @@ steps:
   - title: What you will need
   - title: First code
   - title: PID controller
-  - title: Proportional
-  - title: Derivative
-  - title: Integral
+  - title: Proportional control
+  - title: Derivative control
+  - title: Integral control
   - title: Tune the system
   - title: Other uses for PID
