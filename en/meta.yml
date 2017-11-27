@@ -13,7 +13,7 @@ site_areas: HackSpace
 steps:
   - title: Introduction
   - title: What you will need
-  - title: First code
+  - title: Initial code
   - title: PID controller
   - title: Proportional control
   - title: Derivative control
