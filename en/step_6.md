@@ -6,7 +6,7 @@ This is achieved by taking the previous error into account when calculating the 
 
 **adjustment = (error × KP) + (previous_error × KD)**
 
-Modify the program to implement derivative control…
+Modify the program to implement derivative contro:
 
 1. Create a new constant (KD) for the derivative control. Again, this value will need to be changed to get the best results for your setup; a good starting value is half the value of KP:
 `KD = 0.01`
@@ -32,6 +32,6 @@ Modify the program to implement derivative control…
 	
 5. Run your program. Again you will see the motor speed change in relation to error and over time, it should stabilise to a more consistent speed.
 
-Proportional and derivative (PD) control should provide a good level of performance but may not provide consistency of speed over time – integral control can help to bring this stability.
+Proportional and derivative (PD) control should provide a good level of performance but may not provide consistency of speed over time — integral control can help to bring this stability.
 
 ![Derivative Running](images/derivative_running.PNG)
