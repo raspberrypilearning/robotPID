@@ -6,7 +6,7 @@ This is achieved by taking the previous error into account when calculating the 
 
 **adjustment = (error × KP) + (previous_error × KD)**
 
-Modify the program to implement derivative contro:
+Modify the program to implement derivative control:
 
 1. Create a new constant (KD) for the derivative control. Again, this value will need to be changed to get the best results for your setup; a good starting value is half the value of KP:
 `KD = 0.01`
