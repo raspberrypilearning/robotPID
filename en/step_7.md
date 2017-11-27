@@ -1,4 +1,4 @@
-## Integral
+## Integral control
 Integral control helps to deliver steady state performance by adjusting for slowly changing errors. It does this by keeping a sum of all the previous errors and applying a constant (KI) to the adjustment:
 
 **adjustment = (error × KP) + (previous_error × KD) + (sum_of_errors × KI)**
