@@ -1,0 +1,22 @@
+title: Going Straight with PID
+hero_image: images/robot.JPG
+description: Make your robot go straight with PID
+theme: blue # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 3 # possible values: 1, 2 or 3
+listed: false
+ingredient: false
+copyedit: false
+curriculum: 
+interests: ""
+technologies: ""
+site_areas: HackSpace
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: Initial code
+  - title: PID controller
+  - title: Proportional control
+  - title: Derivative control
+  - title: Integral control
+  - title: Tune the system
+  - title: Other uses for PID
