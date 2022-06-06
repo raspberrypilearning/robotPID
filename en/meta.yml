@@ -7,19 +7,17 @@ duration: 3
 listed: false
 ingredient: false
 copyedit: false
-curriculum:
+curriculum: 
 interests: ''
 technologies: ''
 site_areas: HackSpace
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Initial code
 - title: PID controller
 - title: Proportional control
 - title: Derivative control
 - title: Integral control
 - title: Tune the system
-  completion: internal
 - title: Other uses for PID
